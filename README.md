@@ -22,3 +22,7 @@ The snapshot of the afformentioned procedure can be seen as
 
 ### How to run the project
 First clone to `https://github.com/shayantaherian/Lane-Detection/.git` then move to the directory `cd Lane_Detection` and run `python lane_detection_version.py` 
+
+### References
+1. [Detecting road features](https://github.com/navoshta/detecting-road-features) 
+2. [lane-detection-with-opencv](https://github.com/ckirksey3/lane-detection-with-opencv) 
