@@ -20,3 +20,4 @@ The snapshot of the afformentioned procedure can be seen as
 
 ![Webp net-resizeimage](https://user-images.githubusercontent.com/51369142/85710587-513a6d80-b6de-11ea-8abc-f8d95353a4dc.jpg)
 
+### How to run the project
