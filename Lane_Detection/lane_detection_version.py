@@ -6,16 +6,16 @@ import time
 import argparse
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model_cfg', type = str, default = '/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/LaneDetection_mth2/yolov3.cfg',
+parser.add_argument('--model_cfg', type = str, default = '',
                     help = 'Path to config file')
 parser.add_argument('--model_weights', type=str,
-                    default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/LaneDetection_mth2/yolov3.weights',
+                    default='',
                     help='path to weights of model')
-parser.add_argument('--video', type=str, default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/LaneDetection_mth2/project_video.avi',
+parser.add_argument('--video', type=str, default='',
                     help='path to video file')
 parser.add_argument('--src', type=int, default=0,
                     help='source of the camera')
-parser.add_argument('--output_dir', type=str, default='/Users/st00853/DeepDeterministicPG/DeepLearning_torch/Opencv_detection/Segmentation/LaneDetection_mth2/outputs/',
+parser.add_argument('--output_dir', type=str, default='',
                     help='path to the output directory')
 args = parser.parse_args()
 
@@ -46,8 +46,6 @@ cameraFeed= False
 cameraNo= 1
 #frameWidth= 640
 #frameHeight = 480
-
-
 
 
 if cameraFeed:intialTracbarVals = [24,55,12,100] #  #wT,hT,wB,hB
