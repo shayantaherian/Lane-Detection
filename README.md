@@ -4,6 +4,6 @@ The aim of this project is to try and implement a detection algorithm to identif
 
 ![ezgif com-video-to-gif (2)](https://user-images.githubusercontent.com/51369142/85700210-103d5b80-b6d4-11ea-8894-d36eef4cf0d1.gif)
 
-The pipeline to identify the road boundaries, comprises of the following steps:
+The pipeline to identify the road boundaries, comprises the following steps:
 
-1. Calculate camera calibration matrix using ` cv2.findChessboardCorners()` function
+1. Calculate camera calibration matrix using ` cv2.findChessboardCorners()` function in order to remove the distortion generated from lenses and ensure that lane detection algorithm can be generalized to different cameras.
