@@ -6,4 +6,6 @@ The aim of this project is to try and implement a detection algorithm to identif
 
 The pipeline to identify the road boundaries, comprises the following steps:
 
-1. Calculate camera calibration matrix using ` cv2.findChessboardCorners()` function in order to remove the distortion generated from lenses and ensure that lane detection algorithm can be generalized to different cameras.
+1. Calculate camera calibration matrix using ` cv2.findChessboardCorners()` function in order to remove the distortion generated from lenses and ensure that lane detection algorithm can be generalized to different cameras and then apply the distortion correction to the raw image.
+
+2. Detecting the edges on the image by using set of gradient and color based threshold using `cv2.Sobel` and `cv2.cvtColor` function 
