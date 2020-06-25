@@ -15,3 +15,6 @@ The pipeline to identify the road boundaries, comprises the following steps:
 4. Scaning the resulting frame for pixels and fit them to lane boundary and warp the detection lane boundaries back to the original image.
 
 5. Approximate road properties such as curvature of the road and vehicle position within the lane.
+
+The snapshot of the afformentioned procedure can be seen as 
+
